@@ -4879,7 +4879,7 @@ span.input-group-btn button {
 }
 #services-page.our-value .heading h2,
 #services-page.our-value .heading p {
-    color: #fff;
+    color: rgb(236, 229, 229);
 }
 #services-page.our-value .services-page-box p {
     font-weight: 200;
@@ -4894,7 +4894,7 @@ span.input-group-btn button {
     font-size:60px;
     position: relative;
     display:block;
-    color:#fff;
+    color:#ed2a28;
     -webkit-transition: all .7s ease .1s;
     -o-transition: all .7s ease .1s;
     transition: all .7s ease .1s;
@@ -4923,10 +4923,10 @@ span.input-group-btn button {
     transition:0.3s;
 }
 #services-page{
-    background:#000;
+    background:rgb(255, 255, 255);
 }
 #services-page h2{
-    color: #fff;
+    color: rgb(20, 20, 20);
 }
 .services-page-box {
     border: 1px solid rgba(125,125,125,0.3);
@@ -4942,11 +4942,11 @@ span.input-group-btn button {
     padding:20px 0;
 }
 .services-page-box p{
-    color:#fff;
+    color:#676767;
     line-height:34px;
 }
 .services-page-box:hover{
-    background:#111;
+    background:#fff;
     box-shadow:0 0 76px 0 rgba(0,0,0,0.24);
     -webkit-transition: color 1000ms, background-color 1000ms;
     -moz-transition: color 1000ms, background-color 1000ms;
