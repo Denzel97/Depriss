@@ -106,7 +106,7 @@ h6 {
 }
 h2 {
     font-size: 32px;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 h3 {
     font-size: 24px;
@@ -532,128 +532,6 @@ i {
     }
 }
 
-
-/* ================================= */
-/* --------- Color Switcher -------- */
-/* ================================= */
-
-/* .color-1 {
-    background: #ed2a28;
-}
-.color-2 {
-    background: #0a8fd5;
-}
-.color-3 {
-    background: #ff8000;
-}
-.color-4 {
-    background: #27C911;
-}
-.color-5 {
-    background: #0dbae8;
-}
-.color-6 {
-    background: #8B4DA5;
-}
-.color-7 {
-    background: #068B85;
-}
-.color-8 {
-    background: #173471;
-}
-.color-9 {
-    background: #ffc815;
-}
-.color-10 {
-    background: #e78800;
-}
-.color-picker {
-    position: fixed;
-    left: -239px;
-    top: 150px;
-    width: 239px;
-    background: #e6e6e6;
-    z-index: 999999;
-    -webkit-transition: all .3s ease;
-}
-.color-picker a.handle {
-    position: absolute;
-    top: 0;
-    left: 239px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background: #262626;
-    z-index: 9999;
-}
-.color-picker a.handle i {
-    color: white;
-    font-size: 25px;
-    line-height: 50px;
-}
-.color-picker .settings-header {
-    background: #3c3c3c;
-    height: 50px;
-    padding: 21px 34px 0 34px;
-}
-.color-picker .settings-header h3 {
-    color: #fff;
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 0;
-    padding: 0;
-    margin-top: 0;
-    padding-bottom: 5px;
-}
-.color-picker .section {
-    padding: 20px 20px;
-    border-bottom: 1px solid #cccccc;
-    overflow: hidden;
-}
-.color-picker .section h4 {
-    font-size: 16px;
-    text-transform: none;
-    color: #3c3c3c;
-    line-height: 16px;
-    padding: 0 0 0 0px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-.color-picker .section i {
-    font-size: 16px;
-    margin-right: 10px;
-}
-.color-picker span {
-    font-size: 13px;
-    color: #9a9a9a;
-}
-.color-picker .colors a {
-    display: block;
-    width: 30px;
-    height: 30px;
-    margin-left: 0px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    float: left;
-    border: 2px #BEBEBE solid;
-    border-radius: 100%;
-}
-.color-picker .skin a {
-    display: block;
-    width: 70px;
-    height: 30px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 5px;
-
-    float: left;
-    text-align: center;
-    line-height: 30px;
-    border: 2px transparent solid;
-}
-.color-picker .skin a.actt {
-    border: 2px #FFF solid;
-} */
 
 /*Social Icons*/
 .socials li {
@@ -1605,9 +1483,8 @@ figure.effect-layla .main-title {
 }
 #header-bottom .get-tuch i {
     display: inline-block;
-    font-size: 34px;
+    font-size: 20px;
     margin-right: 7px;
-    vertical-align: text-bottom;
 }
 #header-bottom .get-tech-line {
     display: inline-block;
@@ -2031,7 +1908,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     height: auto;
     width: auto;
     display: inline-table;
-    margin: 15px;
+    margin: 0;
     overflow: hidden;
 }
 .rev_slider_wrapper .slider-caption .bg_blue {
@@ -2103,18 +1980,18 @@ nav.navbar.bootsnav.sticked .social-icons {
     padding-left: 30px;
     padding-bottom: 5px;
 }
-.rev_slider_wrapper #rev_slider_3 .slide-content .title{
+/* .rev_slider_wrapper #rev_slider_3 .slide-content .title{
     position: relative;
     font-size: 36px;
     font-weight: 500;
     font-style: italic;
     line-height: 1.0em;
     margin-bottom: 10px;
-}
+} */
 .rev_slider_wrapper #rev_slider_3 .slide-content .big-title{
     position: relative;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
     line-height: 1.2em;
     margin: 0 0 7px;
@@ -2122,11 +1999,11 @@ nav.navbar.bootsnav.sticked .social-icons {
 .rev_slider_wrapper #rev_slider_3 .slide-content p{
     position: relative;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
-    line-height:30px;
+    line-height:20px;
 }
 /* ---------- OWL SLIDERS  --------- */
 
@@ -3335,7 +3212,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 }
 #services-nin .services-tab-heading h3{
     color: rgb(32, 32, 31);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding-bottom: 15px;
     font-size: 22px;
 }
@@ -4087,19 +3964,19 @@ nav.navbar.bootsnav.sticked .social-icons {
 /* ================================= */
 
 .footer {
-    background: #222222;
+    background: #ffffff;
     position: relative;
 }
 .footer a,
 #footer p,
 ul.list li::before,
 .opening-hourse ul li {
-    color: #808080;
+    color: #2c2b2b;
 }
 .footer a:focus,
 .footer a:hover,
 .footer a:active {
-    color: #666666;
+    color: #1DA1F2;
 }
 .footer .widget .widget-title {
     margin-top: 0px;
@@ -4108,6 +3985,9 @@ ul.list li::before,
     font-weight: 300;
 }
 #footer .copy-right {
+    margin-top: 0;
+    margin-bottom: 1%;
+    text-align: center;
     font-size: 12px;
 }
 .line-bottom-theme-colored-2::after {
@@ -4134,7 +4014,7 @@ ul.list li::before,
     width: 78px;
 }
 .widget.dark .widget-title {
-    color: #fff;
+    color: #000000;
 }
 .widget .widget-title {
     margin-bottom: 20px;
@@ -4147,7 +4027,7 @@ ul.list li::before,
 }
 .widget-title {
     font-size: 22px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .widget {
     margin-bottom: 30px;
@@ -4166,7 +4046,7 @@ ul.list li::before,
 }
 .border-bottom {
     border-bottom: 1px solid #eeeeee;
-    margin-bottom: 65px;
+    margin-bottom: 0;
 }
 .pt-70 {
     padding-top: 70px !important;
@@ -4202,13 +4082,13 @@ ul.list li::before {
     padding: 0;
 }
 .layer-overlay.overlay-dark-8::before {
-    background-color: rgba(17, 17, 17, 0.8);
+    background-color: #ffffff;
 }
 .layer-overlay {
     position: relative;
 }
 .layer-overlay::before {
-    background: rgba(17, 17, 17, 0.5);
+    background: #1c1c1c;
     content: " ";
     height: 100%;
     left: 0;
@@ -4218,7 +4098,7 @@ ul.list li::before {
     z-index: 0;
 }
 .widget.dark .widget-title {
-    color: #fff;
+    color: #1c1c1c;
 }
 .widget .widget-title {
     margin-bottom: 20px;
@@ -4894,7 +4774,7 @@ span.input-group-btn button {
     font-size:60px;
     position: relative;
     display:block;
-    color:#ed2a28;
+    color:#1DA1F2;
     -webkit-transition: all .7s ease .1s;
     -o-transition: all .7s ease .1s;
     transition: all .7s ease .1s;
@@ -8336,7 +8216,7 @@ a.close-overlay.hidden {
     }
     .footer-bottom .list-inline {
         text-align: center;
-        margin-top: 15px;
+        margin-top: 5px;
     }
     .line_2-2 {
         display: block;
