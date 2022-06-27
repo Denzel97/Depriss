@@ -64,20 +64,20 @@ function roundNumber(number, decimals) {
 function update_total() {
     var total = 0;
     $('.price').each(function(i) {
-        price = $(this).html().replace("$", "");
+        price = $(this).html().replace("Ksh.", "");
         if (!isNaN(price)) total += Number(price);
     });
 
     total = roundNumber(total, 2);
 
-    $('#subtotal').html("$" + total);
-    $('#total').html("$" + total);
+    $('#subtotal').html("Ksh." + total);
+    $('#total').html("Ksh." + total);
 
     update_balance();
 }
 
 function update_balance() {
-    var due = $("#total").html().replace("$", "") - $("#paid").val().replace("$", "");
+    var due = $("#total").html().replace("$", "") - $("#paid").val().replace("Ksh.", "");
     due = roundNumber(due, 2);
 
     $('.due').html("$" + due);
@@ -87,7 +87,7 @@ function update_price() {
     var row = $(this).parents('.item-row');
     var price = row.find('.cost').val().replace("$", "") * row.find('.qty').val();
     price = roundNumber(price, 2);
-    isNaN(price) ? row.find('.price').html("N/A") : row.find('.price').html("$" + price);
+    isNaN(price) ? row.find('.price').html("N/A") : row.find('.price').html("Ksh." + price);
 
     update_total();
 }

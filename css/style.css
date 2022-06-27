@@ -216,7 +216,8 @@ i {
     margin-top: 40px;
 }
 .padding {
-    padding: 80px 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 .bottom40 {
     margin-bottom: 40px;
@@ -560,7 +561,7 @@ i {
 
 .link_arrow {
     color: #2a2a2a;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .link_arrow,
 .white_border,
@@ -592,7 +593,7 @@ i {
 .btn_fill,
 .btn_brd {
     padding:12px 40px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-radius: 4px;
     display: inline-block;
 }
@@ -842,7 +843,7 @@ input,
     line-height: 30px;
     padding: 20px 0 0;
     color: #222;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 #team-sev .team-box p{
     font-size:14px;
@@ -1088,7 +1089,7 @@ figure.effect-layla:hover figcaption::after {
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .project1:hover figure.effect-layla .main-title {
     opacity: 1;
@@ -1119,7 +1120,7 @@ figure.effect-layla .main-title {
 }
 .gri figure figcaption {
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -1250,7 +1251,28 @@ figure.effect-layla .main-title {
 /* ================================= */
 /* --------- HEADERS CSS  ---------- */
 /* ================================= */
+.cta {
+    background-color: #1DA1F2;
+    text-align: center;
+    padding: 15px;
+}
+.cta .cta1 .btn {
+    background-color: #1DA1F2;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: solid #000000 1px;
+    margin-left: 20px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cta .cta1 .btn:hover {
+    background-color: #000;
+    color: #f0f0f0;
+    border: solid #1DA1F2 1px;
 
+}
 #header-top {
     background: #313030;
     padding: 10px 0;
@@ -1524,7 +1546,7 @@ nav.bootsnav.brand-center .navbar-collapse {
 }
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: normal;
     padding: 20px 15px;
     font-size: 15px;
@@ -1706,7 +1728,7 @@ nav.navbar.bootsnav ul.nav .dropdown-menu li.dropdown.on .dropdown-toggle {
     font-size: 14px;
     padding: 12px 0 12px 25px;
     display: block;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     position: relative;
     color: #000000;
     font-weight: 600;
@@ -2253,7 +2275,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 }
 #banner-nin .banner_detail h2 {
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 40px;
     font-weight: 300;
 }
@@ -2290,7 +2312,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     color: #fff;
     position: relative;
     display: inline-block;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 #main-slider .carousel p {
     color: #fff;
@@ -2311,7 +2333,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 #main-slider .carousel h1 {
     font-size: 50px;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 40px 0;
     padding: 0 16%;
 }
@@ -2454,7 +2476,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     font-size: 18px;
     font-weight: bold;
     padding: 21px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .single-query label,
 .single-query-slider label {
@@ -2478,7 +2500,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 }
 .single-query input,
 .single-query select {
-    text-transform: normal;
+    /* text-transform: normal; */
     background: transparent;
 }
 .search-2 .intro .zelect,
@@ -2591,7 +2613,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     height: 48px;
     line-height: 48px;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     width: 160px;
 }
 .search-properties .group-button-search {
@@ -2606,7 +2628,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 .search-properties .group-button-search .more-filter .icon {
     display: inline-block;
     margin-bottom: 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: all 0.5s ease;
 }
 .search-properties .group-button-search .more-filter .text-1,
@@ -2642,7 +2664,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     font-size: 24px;
     font-weight: 700;
     text-align: left;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin-bottom: 30px;
 }
 .search-properties.bg-gray .group-button-search .more-filter .text-1,
@@ -2699,7 +2721,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-weight: 500;
     margin-right: 6px;
 }
@@ -3058,7 +3080,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     color: #222;
     margin: 0;
     padding: 0;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
     font-weight:600;
 }
 .service-box .media-body p{
@@ -3234,7 +3256,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     border-radius: 5px;
     padding: 9px 22px;
     font-size: 13px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     background:#1f1e1e;
     color:rgb(240, 240, 240);
     cursor:pointer;
@@ -3257,7 +3279,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     background-color: transparent;
     border: none;
     box-shadow: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 #services-nin .nav-tabs .dropdown-menu > li > a {
     padding: 7px 20px;
@@ -3355,7 +3377,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     display: inline-block;
     padding-bottom: 12px;
     margin-bottom: 8px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 1px;
@@ -3467,7 +3489,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 .team-member .team-intro.light-txt span {
     margin-bottom: 0;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .team-member .team-intro.light-txt h5 {
     color: #fff;
@@ -3872,7 +3894,7 @@ nav.navbar.bootsnav.sticked .social-icons {
 .image-text-eig-details h2{
   font-size: 40px;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding-bottom: 30px;
 }
 .image-text-eig-details h5{
@@ -4303,7 +4325,7 @@ span.input-group-btn button {
     font-weight: 400;
 }
 .page-title a {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .page-title span {
     margin: 0 10px;
@@ -4332,7 +4354,7 @@ span.input-group-btn button {
 }
 .main-title h2 {
     margin: 0px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .main-title h5 {
     font-weight: normal;
@@ -4656,7 +4678,7 @@ span.input-group-btn button {
     font-style: oblique;
     letter-spacing: 1px;
     font-weight:400;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
 }
 .feature-text.left-icon .feature-icon {
     position: absolute;
@@ -4731,7 +4753,7 @@ span.input-group-btn button {
     border: 5px solid #fff;
 }
 .our-mission-box-detail h3 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 400;
     font-size: 22px;
     padding-bottom: 10px;
@@ -5463,7 +5485,7 @@ a.close-overlay.hidden {
     font-size: 11px;
     font-weight: normal;
     padding: 6px 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .property-list-list .recent-properties-price {
     margin: 0 0 10px;
@@ -5534,7 +5556,7 @@ a.close-overlay.hidden {
     font-size: 11px;
     font-weight: normal;
     padding: 6px 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 
@@ -5639,7 +5661,7 @@ a.close-overlay.hidden {
 .tab-pane > h2 {
     color: #fff;
     margin-bottom: 50px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .login_detail {
     background: transparent;
@@ -5753,7 +5775,7 @@ a.close-overlay.hidden {
 /* --------- Gallery  Css  --------- */
 .inner-page-gallery-two-columns h1,
 .inner-page-gallery-three-columns h1 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     font-size: 27px;
     font-weight: 700;
@@ -5871,7 +5893,7 @@ a.close-overlay.hidden {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 .inner-page-gallery-two-columns-dimension-detail .icon,
@@ -6483,7 +6505,7 @@ a.close-overlay.hidden {
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top: 8px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .blog_info .archieves {
     clear: both;
@@ -6506,7 +6528,7 @@ a.close-overlay.hidden {
 .blog_info .archieves li a {
     color: #435061 !important;
     font-size: 13px !important;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 #news-section-1 img,
 .inner-page-left-sidebar img {
@@ -6520,7 +6542,7 @@ a.close-overlay.hidden {
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top: 8px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .blog_info .archieves .blogimagedescription h3,
 .blog_info .archieves .blogimagedescription h3 a,
@@ -6533,7 +6555,7 @@ a.close-overlay.hidden {
 .blog_info .blogimagedescription .detail a {
     color: #435061 !important;
     font-size: 12px !important;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .inner-page-shortcodes p {} .news-2-tag .col-md-5 {
     margin-top: 10px;
@@ -6548,7 +6570,7 @@ a.close-overlay.hidden {
 .blog_info .blogimagedescription .detail a {
     color: #435061 !important;
     font-size: 12px !important;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 /* ------- NEWS - 2 ------ */
 .sim-lar-text > h3 {
@@ -6580,7 +6602,7 @@ a.close-overlay.hidden {
     margin: 20px 0 10px;
     color: #222;
     font-size: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
 }
 .news_padding > p {
@@ -6930,7 +6952,7 @@ a.close-overlay.hidden {
     text-align: left;
 }
 #contact-us .our-agent-box h2 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 #contact-us .agent-p-contact {
     border-bottom: none;
@@ -6984,7 +7006,7 @@ a.close-overlay.hidden {
     padding: 8px 15px;
     position: absolute;
     left: 5px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 /* ------ Contact us - 2 ---- */
 #contact-us-2 {
@@ -7164,7 +7186,7 @@ a.close-overlay.hidden {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     will-change: opacity, transform;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -7478,7 +7500,7 @@ a.close-overlay.hidden {
     color: #979797;
 }
 .planContainer .button a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 3px;
@@ -7560,12 +7582,12 @@ a.close-overlay.hidden {
     margin-bottom: 0;
     font-size:50px;
 	font-weight:800;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 	color:#fff;
 }
 .slider-text h3 {
     margin-bottom: 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 	color:#fff;
 }
 .slider-text p {
@@ -7714,7 +7736,7 @@ a.close-overlay.hidden {
 }
 .grid figcaption h2 {
     margin: 0 0 20px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 16px;
@@ -7729,7 +7751,7 @@ a.close-overlay.hidden {
     position: absolute;
     padding: 4px 20px;
     border: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: bold;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
