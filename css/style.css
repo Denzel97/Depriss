@@ -4767,7 +4767,7 @@ span.input-group-btn button {
 }
 .our-mission-box-detail ul li {
     display: block;
-    padding-top: 14px;
+    padding-top: 5px;
     position:relative;
     padding-left:30px;
 }
@@ -4775,7 +4775,7 @@ span.input-group-btn button {
     content: "\f0c8";
     position: absolute;
     left: 0;
-    top: 22px;
+    top: 10px;
     font-family: "FontAwesome";
     font-size: 11px;
 }
