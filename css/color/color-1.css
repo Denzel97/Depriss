@@ -76,6 +76,9 @@ a:focus {
 .proerty_content .favroute ul li a:hover {
     background: #1DA1F2;
 }
+.feature .tag {
+    background: #ff0000;
+}
 .feature .tag-2 {
     background: #1DA1F2;
 }
