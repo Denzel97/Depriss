@@ -4,6 +4,10 @@
 
 /* Red - #1DA1F2 */
 /* Blue - #1DA1F2 */
+.bi-telephone, .bi-envelope-paper, .bi-geo-alt {
+    color: #1DA1F2;
+}
+
 a:hover {
     color: #1DA1F2;
 }
