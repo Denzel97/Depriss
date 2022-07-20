@@ -3321,7 +3321,7 @@ nav.navbar.bootsnav.sticked .social-icons {
     font-family: FontAwesome;
     position: absolute;
     left: -33px;
-    top: 4px;
+    top: 0;
     font-size: 17px;
 }
 #services-nin .services-tab-detail .cd-btn {
